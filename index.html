@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Menu</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <form action="index.html" method="POST">
+      <h1>Sign Up</h1>
+    <fieldset>
+        <legend><span class="num">1</span>Your Basic Info</legend>
+
+        <label for="name">Name: </label>
+        <input type="text" name="user_name" class="one" /></br></br>
+
+        <label for="email">Email: </label>
+        <input type="text" name="user_email" class="two"/></br></br>
+
+        <label for="name">Password: </label>
+        <input type="text" name="password" class="three" /></br></br>
+    </fieldset>
+    <fieldset>
+          <legend><span class="num">2</span>Your Profile</legend>
+          
+          <label for="bio">Biography:</label>
+          <textarea name="user_bio" id="bio" cols="30" rows="10"></textarea></br></br>
+
+          <label for="job" class="role">Job Role:</label>
+          <select name="job" id="user_job">
+            <optgroup lebel= "Web">
+                <option value="fdeveloper">Front End Developer</option>
+                <option value="pdeveloper">PHP Developer</option>
+                <option value="python">Python Developer</option>
+                <option value="rails">Rails Developer</option>
+                <option value="wdeveloper">Web Developer</option>
+                <option value="android">Android Developer</option>
+                <option value="ios">IOS Developer</option>
+                <option value="logo">Logo Designer</option>
+            </optgroup>
+            <optgroup label="Business">
+                <option value="business">Business Owner</option>
+                <option value="frelancer">Frelancer</option>
+            </optgroup>
+        </select>
+    </fieldset></br>
+    <button type="submit" name="submit">Submit</button>
+    </form>
+  </body>
+</html>

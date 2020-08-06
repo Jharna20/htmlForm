@@ -1,0 +1,67 @@
+body {
+  background-image: url("inc/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-family: lato;
+}
+form {
+  margin-left: 62%;
+  margin-right: 10%;
+  color: #ffffff;
+  font-size: 19px;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20%;
+}
+input {
+  padding: 3px 0;
+}
+label {
+  color: aquamarine;
+  font-size: 18px;
+  margin-left: 10%;
+}
+textarea {
+  margin-left: 20%;
+}
+span {
+  background-color: #19ca8f;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
+}
+button {
+  width: 50%;
+  height: 30px;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  background-color: #19ca8f;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5;
+}
+.one {
+  margin-left: 10%;
+}
+.two {
+  margin-left: 10%;
+}
+.three {
+  margin-left: 2.5%;
+}
+#user_job {
+  margin-left: 5%;
+  width: 180px;
+  padding: 5px 0;
+}
+legend {
+  text-align: center;
+}
